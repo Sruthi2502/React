@@ -144,7 +144,7 @@ const Register = () => {
       try {
         setLoading(true); // Show loading spinner
         const response = await axios.post(
-          "http://localhost:5004/user/register",
+          "https://react-git-main-sruthi-bajjuris-projects.vercel.app/",
           formData
         );
         setSuccessMessage(response.data.message);
